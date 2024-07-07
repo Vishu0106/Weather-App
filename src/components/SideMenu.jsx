@@ -3,7 +3,7 @@ import { MdHome } from "react-icons/md";
 import { MdOutlineDashboard } from "react-icons/md";
 function SideMenu() {
   return (
-    <div className='bg-[#ffffff] min-h-[90vh] min-w-[16vw] flex-col'>
+    <div className='bg-[#ffffff] min-h-[89vh] min-w-[16vw] flex-col'>
       {/* This is a frst part of side menu */}
         <div className="pl-2 pt-7 pr-2 ">
             <ul className="flex flex-col gap-2">

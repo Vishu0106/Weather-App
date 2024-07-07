@@ -1,10 +1,11 @@
 
 import HomeLayout from './layout/HomeLayout'
+import BodyLayout from './components/BodyLayout'
 function App() {
 
   return (
     <>
-      <HomeLayout></HomeLayout>
+      <BodyLayout></BodyLayout>
     </>
   )
 }
