@@ -100,9 +100,8 @@ const MenuBar = () => {
             </button>
           </div>
           <div className="relative top-12 flex flex-col items-center justify-center gap-3">
-            <Link to="#" className="text-lg hover:text-white hover:bg-slate-700 rounded-lg p-1 px-8 bg-slate-900 text-white" onClick={toggleMenu}>Option 1</Link>
-            <Link to="#" className="text-lg hover:text-white hover:bg-slate-700 rounded-lg p-1 px-8 bg-slate-900 text-white" onClick={toggleMenu}>Option 2</Link>
-            <Link to="#" className="text-lg hover:text-white hover:bg-slate-700 rounded-lg p-1 px-8 bg-slate-900 text-white" onClick={toggleMenu}>Option 3</Link>
+            <Link to="/" className="text-lg hover:text-white hover:bg-slate-700 rounded-lg p-1 px-8 bg-slate-900 text-white" onClick={toggleMenu}>Home</Link>
+            <Link to="/charts" className="text-lg hover:text-white hover:bg-slate-700 rounded-lg p-1 px-8 bg-slate-900 text-white" onClick={toggleMenu}>Visualized Data</Link>
           </div>
         </div>
       )}

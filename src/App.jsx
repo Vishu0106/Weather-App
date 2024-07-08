@@ -6,7 +6,7 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<BodyLayout />}/>
-      <Route path='charts' element={<ChartPage />}/>
+      <Route path='/charts' element={<ChartPage />}/>
     </Routes>
   )
 }
