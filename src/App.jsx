@@ -1,12 +1,13 @@
-
-import HomeLayout from './layout/HomeLayout'
 import BodyLayout from './components/BodyLayout'
+import ChartPage from './pages/ChartPage'
+import { Routes , Route } from 'react-router-dom'
 function App() {
 
   return (
-    <>
-      <BodyLayout></BodyLayout>
-    </>
+    <Routes>
+      <Route path='/' element={<BodyLayout />}/>
+      <Route path='charts' element={<ChartPage />}/>
+    </Routes>
   )
 }
 

@@ -1,5 +1,6 @@
 import HomeLayout from '../layout/HomeLayout'
 import WeatherReport from './WeatherReport'
+
 function BodyLayout() {
   return (
     <HomeLayout>
